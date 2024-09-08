@@ -11,6 +11,17 @@ List<Person> users = new List<Person>
 var builder = WebApplication.CreateBuilder();
 var app = builder.Build();
 app.Use(GetDate);
+app.UseWhen(
+    context => context.Request.Path == "/time", // условие: если путь запроса "/time"
+    appBuilder =>
+    {
+        appBuilder.Use(async (context, next) =>
+        {
+            var time = DateTime.Now.ToShortTimeString();
+            Console.WriteLine($"Time: {time}");
+            await next();   // вызываем следующий middleware
+        });
+    });
 app.Run(async (context) =>
 {
     var response = context.Response;
@@ -25,6 +36,10 @@ app.Run(async (context) =>
     if(request.Path == "/UploadFile.html")
     {
         await response.SendFileAsync("html/uploadfile.html");
+    }
+    else if (request.Path == "/time")
+    {
+        response.Redirect(request.Host.Value);
     }
     else if (request.Path == "/upload" && request.Method == "POST")
     {
