@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evalution", "Evalution\Eval
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapUse", "MapUse\MapUse.csproj", "{91FBD12B-E077-4991-ABA5-C929AB1166FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenWeb", "TokenWeb\TokenWeb.csproj", "{316613C3-897A-4D29-836A-4F0F6DB9E7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAdvanced", "TokenAdvanced\TokenAdvanced.csproj", "{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{91FBD12B-E077-4991-ABA5-C929AB1166FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91FBD12B-E077-4991-ABA5-C929AB1166FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91FBD12B-E077-4991-ABA5-C929AB1166FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316613C3-897A-4D29-836A-4F0F6DB9E7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316613C3-897A-4D29-836A-4F0F6DB9E7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316613C3-897A-4D29-836A-4F0F6DB9E7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316613C3-897A-4D29-836A-4F0F6DB9E7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
