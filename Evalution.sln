@@ -3,37 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evalution", "Evalution\Evalution.csproj", "{878DB76A-4D12-45A2-84C9-8B58BD13F491}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evalution", "Evalution\Evalution.csproj", "{878DB76A-4D12-45A2-84C9-8B58BD13F491}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapUse", "MapUse\MapUse.csproj", "{91FBD12B-E077-4991-ABA5-C929AB1166FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapUse", "MapUse\MapUse.csproj", "{91FBD12B-E077-4991-ABA5-C929AB1166FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenWeb", "TokenWeb\TokenWeb.csproj", "{316613C3-897A-4D29-836A-4F0F6DB9E7C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenWeb", "TokenWeb\TokenWeb.csproj", "{316613C3-897A-4D29-836A-4F0F6DB9E7C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAdvanced", "TokenAdvanced\TokenAdvanced.csproj", "{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenAdvanced", "TokenAdvanced\TokenAdvanced.csproj", "{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMiddleware", "NyMiddleware\MyMiddleware.csproj", "{4C30E26A-282B-4616-A9CE-4D479A8F4DA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyMiddleware", "NyMiddleware\MyMiddleware.csproj", "{4C30E26A-282B-4616-A9CE-4D479A8F4DA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StageEvalution", "StageEvalution\StageEvalution.csproj", "{11577738-B6CD-45BC-9242-3D1D35785AF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StageEvalution", "StageEvalution\StageEvalution.csproj", "{11577738-B6CD-45BC-9242-3D1D35785AF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Injection", "Injection\Injection.csproj", "{6BAC081A-7993-4B11-96FE-08008EC96B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Injection", "Injection\Injection.csproj", "{6BAC081A-7993-4B11-96FE-08008EC96B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesASP", "ServicesASP\ServicesASP.csproj", "{81423701-1ED6-49FC-A8CA-8909E6B1B250}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesASP", "ServicesASP\ServicesASP.csproj", "{81423701-1ED6-49FC-A8CA-8909E6B1B250}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDependenses", "GetDependenses\GetDependenses.csproj", "{F1899239-D3A7-4E3E-AE88-C3DD4E056149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetDependenses", "GetDependenses\GetDependenses.csproj", "{F1899239-D3A7-4E3E-AE88-C3DD4E056149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvokeAndAsync", "InvokeAndAsync\InvokeAndAsync.csproj", "{28397C09-1F9F-4C50-B70A-C16F341ED8B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvokeAndAsync", "InvokeAndAsync\InvokeAndAsync.csproj", "{28397C09-1F9F-4C50-B70A-C16F341ED8B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeCycle", "LifeCycle\LifeCycle.csproj", "{524A5275-4797-4414-B2CF-DEF529CF2D94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeCycle", "LifeCycle\LifeCycle.csproj", "{524A5275-4797-4414-B2CF-DEF529CF2D94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassService", "ClassService\ClassService.csproj", "{BA4F655B-3214-4FF3-B73A-00A180968DAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassService", "ClassService\ClassService.csproj", "{BA4F655B-3214-4FF3-B73A-00A180968DAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoped_and_singlenton", "Scoped_and_singlenton\Scoped_and_singlenton.csproj", "{EEC41C9D-9F84-45E2-92EC-2DACF332ECD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scoped_and_singlenton", "Scoped_and_singlenton\Scoped_and_singlenton.csproj", "{EEC41C9D-9F84-45E2-92EC-2DACF332ECD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiInject", "MultiInject\MultiInject.csproj", "{2AF718DD-2070-4A1A-B00C-BFE386CBA505}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiInject", "MultiInject\MultiInject.csproj", "{2AF718DD-2070-4A1A-B00C-BFE386CBA505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generator", "Generator\Generator.csproj", "{2ADA7F85-866E-4CAC-B584-42D7250F2B3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generator", "Generator\Generator.csproj", "{2ADA7F85-866E-4CAC-B584-42D7250F2B3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Start", "Start\Start.csproj", "{8DDC459E-5F05-4FC2-A382-F8D87AC5098F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Start", "Start\Start.csproj", "{8DDC459E-5F05-4FC2-A382-F8D87AC5098F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseMe", "UseMe\UseMe.csproj", "{5FE70E25-CCCF-4184-9885-DA990EF6C20A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{8DDC459E-5F05-4FC2-A382-F8D87AC5098F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DDC459E-5F05-4FC2-A382-F8D87AC5098F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DDC459E-5F05-4FC2-A382-F8D87AC5098F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE70E25-CCCF-4184-9885-DA990EF6C20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE70E25-CCCF-4184-9885-DA990EF6C20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE70E25-CCCF-4184-9885-DA990EF6C20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE70E25-CCCF-4184-9885-DA990EF6C20A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
