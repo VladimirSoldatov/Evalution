@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenWeb", "TokenWeb\TokenW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenAdvanced", "TokenAdvanced\TokenAdvanced.csproj", "{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMiddleware", "NyMiddleware\MyMiddleware.csproj", "{4C30E26A-282B-4616-A9CE-4D479A8F4DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StageEvalution", "StageEvalution\StageEvalution.csproj", "{11577738-B6CD-45BC-9242-3D1D35785AF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6930967F-61D8-4E2A-B6D5-AB530D99AA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C30E26A-282B-4616-A9CE-4D479A8F4DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C30E26A-282B-4616-A9CE-4D479A8F4DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C30E26A-282B-4616-A9CE-4D479A8F4DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C30E26A-282B-4616-A9CE-4D479A8F4DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11577738-B6CD-45BC-9242-3D1D35785AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11577738-B6CD-45BC-9242-3D1D35785AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11577738-B6CD-45BC-9242-3D1D35785AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11577738-B6CD-45BC-9242-3D1D35785AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
