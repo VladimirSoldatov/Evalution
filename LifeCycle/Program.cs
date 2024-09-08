@@ -1,13 +1,13 @@
-var builder = WebApplication.CreateBuilder();
+//var builder = WebApplication.CreateBuilder();
 
-builder.Services.AddSingleton<ICounter, RandomCounter>();
-builder.Services.AddSingleton<CounterService>();
+//builder.Services.AddSingleton<ICounter, RandomCounter>();
+//builder.Services.AddSingleton<CounterService>();
 
-var app = builder.Build();
+//var app = builder.Build();
 
-app.UseMiddleware<CounterMiddleware>();
+//app.UseMiddleware<CounterMiddleware>();
 
-app.Run();
+//app.Run();
 
 //var builder = WebApplication.CreateBuilder();
 
@@ -18,19 +18,19 @@ app.Run();
 
 //app.UseMiddleware<CounterMiddleware>();
 
-//app.Run
+//app.Run();
 //
 
-//var builder = WebApplication.CreateBuilder();
+var builder = WebApplication.CreateBuilder();
 
-//builder.Services.AddScoped<ICounter, RandomCounter>();
-//builder.Services.AddScoped<CounterService>();
+builder.Services.AddScoped<ICounter, RandomCounter>();
+builder.Services.AddScoped<CounterService>();
 
-//var app = builder.Build();
+var app = builder.Build();
 
-//app.UseMiddleware<CounterMiddleware>();
+app.UseMiddleware<CounterMiddleware>();
 
-//app.Run();
+app.Run();
 
 public interface ICounter
 {
