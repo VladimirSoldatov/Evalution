@@ -10,7 +10,7 @@ List<Person> users = new List<Person>
 
 var builder = WebApplication.CreateBuilder();
 var app = builder.Build();
-
+app.Use(GetDate);
 app.Run(async (context) =>
 {
     var response = context.Response;
@@ -178,9 +178,23 @@ async Task UpdatePerson(HttpResponse response, HttpRequest request)
         await response.WriteAsJsonAsync(new { message = "Некорректные данные" });
     }
 }
+
+async Task GetDate(HttpContext context, Func<Task> next)
+{
+    string? path = context.Request.Path.Value?.ToLower();
+    if (path == "/date")
+    {
+        await context.Response.WriteAsync($"Date: {DateTime.Now.ToShortDateString()}");
+    }
+    else
+    {
+        await next.Invoke();
+    }
+}
 public class Person
 {
     public string Id { get; set; } = "";
     public string Name { get; set; } = "";
     public int Age { get; set; }
 }
+
