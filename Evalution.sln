@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeCycle", "LifeCycle\Life
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassService", "ClassService\ClassService.csproj", "{BA4F655B-3214-4FF3-B73A-00A180968DAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoped_and_singlenton", "Scoped_and_singlenton\Scoped_and_singlenton.csproj", "{EEC41C9D-9F84-45E2-92EC-2DACF332ECD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{BA4F655B-3214-4FF3-B73A-00A180968DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA4F655B-3214-4FF3-B73A-00A180968DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA4F655B-3214-4FF3-B73A-00A180968DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC41C9D-9F84-45E2-92EC-2DACF332ECD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC41C9D-9F84-45E2-92EC-2DACF332ECD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC41C9D-9F84-45E2-92EC-2DACF332ECD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC41C9D-9F84-45E2-92EC-2DACF332ECD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
