@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetDependenses", "GetDepend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvokeAndAsync", "InvokeAndAsync\InvokeAndAsync.csproj", "{28397C09-1F9F-4C50-B70A-C16F341ED8B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeCycle", "LifeCycle\LifeCycle.csproj", "{524A5275-4797-4414-B2CF-DEF529CF2D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassService", "ClassService\ClassService.csproj", "{BA4F655B-3214-4FF3-B73A-00A180968DAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{28397C09-1F9F-4C50-B70A-C16F341ED8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28397C09-1F9F-4C50-B70A-C16F341ED8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28397C09-1F9F-4C50-B70A-C16F341ED8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524A5275-4797-4414-B2CF-DEF529CF2D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524A5275-4797-4414-B2CF-DEF529CF2D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524A5275-4797-4414-B2CF-DEF529CF2D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524A5275-4797-4414-B2CF-DEF529CF2D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4F655B-3214-4FF3-B73A-00A180968DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4F655B-3214-4FF3-B73A-00A180968DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4F655B-3214-4FF3-B73A-00A180968DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4F655B-3214-4FF3-B73A-00A180968DAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
