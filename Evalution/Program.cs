@@ -20,7 +20,34 @@ app.Run(async (context) =>
 
     // 2e752824-1657-4c7f-844b-6ec2e168e99c
     string expressionForGuid = @"^/api/users/\w{8}-\w{4}-\w{4}-\w{4}-\w{12}$";
-    if (path == "/api/users" && request.Method == "GET")
+
+    response.ContentType = "text/html; charset=utf-8";
+    if(request.Path == "/UploadFile.html")
+    {
+        await response.SendFileAsync("html/uploadfile.html");
+    }
+    else if (request.Path == "/upload" && request.Method == "POST")
+    {
+        IFormFileCollection files = request.Form.Files;
+        // путь к папке, где будут храниться файлы
+        var uploadPath = $"{Directory.GetCurrentDirectory()}/uploads";
+        // создаем папку для хранения файлов
+        Directory.CreateDirectory(uploadPath);
+
+        foreach (var file in files)
+        {
+            // путь к папке uploads
+            string fullPath = $"{uploadPath}/{file.FileName}";
+
+            // сохраняем файл в папку uploads
+            using (var fileStream = new FileStream(fullPath, FileMode.Create))
+            {
+                await file.CopyToAsync(fileStream);
+            }
+        }
+        await response.WriteAsync("Файлы успешно загружены");
+    }
+    else if (path == "/api/users" && request.Method == "GET")
     {
         await GetAllPeople(response);
     }
